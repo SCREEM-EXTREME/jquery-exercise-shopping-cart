@@ -15,139 +15,205 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-    <section id="items-list" class="container">
-      <div class="row">
-        <div class="cart-title col-xs-6 col-xs-offset-3">
-          <h1>
-          Shopping Cart
-          </h1>
-        </div>
+    <body class="background">
+    <section id="items-list" class="container">
+     <div class="row">
+        <div class="cart-title col-xs-12">
+         <h1>
+            SoLocal Grocery Stores Shopping Cart
+         </h1>
+       </div>
+     </div>
+    </div>
+     <div class="container-fluid">
       </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Salmon
-        </div>
-        <div class="item-price col-xs-3">
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+              Salmon
+          </div>
+          <div class="item-price col-xs-3">
           $60.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Tuna
-        </div>
-        <div class="item-price col-xs-3">
-          $50.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Carp
-        </div>
-        <div class="item-price col-xs-3">
-          $40.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Pork
-        </div>
-        <div class="item-price col-xs-3">
-          $50.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Beef
-        </div>
-        <div class="item-price col-xs-3">
-          $40.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Chicken
-        </div>
-        <div class="item-price col-xs-3">
-          $25.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Cereal
-        </div>
-        <div class="item-price col-xs-3">
-          $45.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Milk
-        </div>
-        <div class="item-price col-xs-3">
-          $20.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="item-name col-xs-6">
-          Sugar
-        </div>
-        <div class="item-price col-xs-3">
-          $10.00
-        </div>
-        <div class="item-qty col-xs-3">
-          <label>QTY</label>
-          <input class="quantity">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3 col-xs-offset-9">
-          <button id="calc-prices-button" type="button" data-button='{"id": "3424"}' class="btn btn-success">
-            Calculate Prices
-          </button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-4 col-xs-offset-4">
-          <h1 class="total-price-label">
-            Total Price:
-          </h1>
-          <div id="total-price">
-            $--.--
+          </div>
+          <div class="item-qty col-xs-3">
+            <label>QTY</label>
+              <input class="quantity">
+          </div>
+      <!-- I have added in the rows "total" for now but need to pull it into the more eloquent code--> 
+          <div class="line-total col-xs-3">
+            <label>TTL</label>
+            <div class="item-total">
+
+            </div>
           </div>
         </div>
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+              Tuna
+          </div>
+          <div class="item-price col-xs-3">
+              $50.00
+          </div>
+          <div class="item-qty col-xs-3">
+              <label>QTY</label>
+                <input class="quantity">
+          </div>
+          <div class="line-total col-xs-3">
+            <label>TTL</label>
+            <div class="item-total">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+            Carp
+          </div>
+          <div class="item-price col-xs-3">
+            $40.00
+          </div>
+          <div class="item-qty col-xs-3">
+            <label>QTY</label>
+              <input class="quantity">
+          </div>
+          <div class="line-total col-xs-3">
+            <label>TTL</label>
+            <div class="item-total">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+              Pork
+          </div>
+          <div class="item-price col-xs-3">
+              $50.00
+          </div>
+          <div class="item-qty col-xs-3">
+            <label>QTY</label>
+              <input class="quantity">
+          </div>
+          <div class="line-total col-xs-3">
+            <label>TTL</label>
+            <div class="item-total">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+            Beef
+          </div>
+          <div class="item-price col-xs-3">
+            $40.00
+          </div>
+          <div class="item-qty col-xs-3">
+            <label>QTY</label>
+              <input class="quantity">
+          </div>
+          <div class="line-total col-xs-3">
+            <label>TTL</label>
+            <div class="item-total">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+            Chicken
+          </div>
+          <div class="item-price col-xs-3">
+          $ 25.00
+          </div>
+          <div class="item-qty col-xs-3">
+            <label>QTY</label>
+              <input class="quantity">
+          </div>
+          <div class="line-total col-xs-3">
+              <label>TTL</label>
+              <div class="item-total">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+            Cereal
+          </div>
+          <div class="item-price col-xs-3">
+            $45.00
+          </div>
+          <div class="item-qty col-xs-3">
+            <label>QTY</label>
+              <input class="quantity">
+          </div>
+          <div class="line-total col-xs-3">
+            <label>TTL</label>
+            <div class="item-total">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+            Milk
+          </div>
+          <div class="item-price col-xs-3">
+            $20.00
+          </div>
+          <div class="item-qty col-xs-3">
+            <label>QTY</label>
+              <input class="quantity">
+          </div>
+          <div class="line-total col-xs-3">
+            <label>TTL</label>
+            <div class="item-total">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="item-name col-xs-3">
+            Milk
+          </div>
+          <div class="item-price col-xs-3">
+            $20.00
+          </div>
+          <div class="item-qty col-xs-3">
+            <label>QTY</label>
+              <input class="quantity">
+          </div>
+          <div class="line-total col-xs-3">
+            <label>TTL</label>
+            <div class="item-total">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4">
+            <button id="calc-prices-button" type="button" data-button='{"id": "3424"}' class="btn btn-success">
+            Calculate Prices
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="total-price-label">
+              Total Price:
+            </h1>
+              <div class="grandTotal">
+                <span class="d-sign">HK$</span>
+              </div>
+                <div id="total-price">
+          <!--add in the USD$ sign... I removed $--.-- from harrys code as it needed to be either in the css or bootstrap instead...-->
+
+              </div>
+        </div>
       </div>
+    </div>
     </section>
   </body>
 </html>

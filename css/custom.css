@@ -1,0 +1,37 @@
+.row { 
+	color: white;
+	font-style: bold;
+
+}
+
+h1 {
+	text-align: left;
+	padding: 5px;
+	background: green;
+	color: #fff;
+	border-left: 1px solid;
+	font: bold;
+
+}
+
+#total-price {
+	font-size: 30px;
+
+}
+.d-sign {
+	font list-style-image: 30px;
+	font: bold;
+
+}
+.background {
+	background-image: url(http://74211.com/wallpaper/picture_big/free_wallpaper_of_a_high_resolution_photoa_green_leaf_.jpg);
+	background-color: green;
+}
+.item-name, .item-price, .item-qty, .line-total{
+	background-color: green;
+	
+}
+
+.quantity {
+	background-color: green;
+}
